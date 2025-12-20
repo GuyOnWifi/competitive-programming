@@ -8,10 +8,10 @@ all: build
 build: $(BIN)
 
 $(BIN): $(SRC)
-	g++ $(CFLAGS) $(SRC) -o $(BIN)
+	g++ $(CFLAGS) $(SRC) -o out/$(BIN)
 
 run: build
-	./$(BIN)
+	./out/$(BIN)
 
 clean:
 	rm -f $(BIN)
