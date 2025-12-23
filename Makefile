@@ -1,14 +1,17 @@
 .PHONY: all build run clean
 
-BIN := alpaca_array
-SRC := $(BIN).cpp
+CXXFLAGS := -g -O0 -Wall
+
+FOLDER :=uva
+BIN :=product_better
+SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
 
 build: $(BIN)
 
 $(BIN): $(SRC)
-	g++ $(CFLAGS) $(SRC) -o out/$(BIN)
+	g++ $(CXXFLAGS) $(SRC) -o out/$(BIN)
 
 run: build
 	./out/$(BIN)
