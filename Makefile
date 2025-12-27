@@ -2,8 +2,8 @@
 
 CXXFLAGS := -g -O0 -Wall
 
-FOLDER :=codeforces
-BIN := wasted_time
+FOLDER :=uva
+BIN :=big_mod
 SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
