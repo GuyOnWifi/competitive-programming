@@ -2,8 +2,8 @@
 
 CXXFLAGS := -g -O0 -Wall
 
-FOLDER :=uva
-BIN :=big_mod
+FOLDER :=aaa1
+BIN :=q3
 SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
