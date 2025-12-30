@@ -2,8 +2,8 @@
 
 CXXFLAGS := -g -O0 -Wall
 
-FOLDER :=cf-186
-BIN := q4
+FOLDER :=codeforces
+BIN := medical_parity_2
 SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
