@@ -2,8 +2,8 @@
 
 CXXFLAGS := -g -O0 -Wall
 
-FOLDER :=spoj
-BIN := toe1
+FOLDER :=cf-186
+BIN := q4
 SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
