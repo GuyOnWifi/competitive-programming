@@ -2,8 +2,8 @@
 
 CXXFLAGS := -g -O0 -Wall
 
-FOLDER :=codeforces
-BIN := medical_parity_2
+FOLDER :=dmoj
+BIN := blindfold_bitset
 SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
