@@ -3,7 +3,7 @@
 CXXFLAGS := -g -O0 -Wall
 
 FOLDER :=dmoj
-BIN := blindfold_bitset
+BIN := bouncing_ball
 SRC := $(FOLDER)/$(BIN).cpp
 
 all: build
